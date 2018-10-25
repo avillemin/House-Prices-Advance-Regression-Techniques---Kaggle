@@ -2,7 +2,7 @@
   
 Kaggle Challenge : https://www.kaggle.com/c/digit-recognizer  
 
-![Alt Text](https://kaggle2.blob.core.windows.net/competitions/kaggle/3004/logos/front_page.png)
+![Alt Text](http://i.imgur.com/nmyGH4g.png)
 
 "In this competition, your goal is to correctly identify digits from a dataset of tens of thousands of handwritten images. We’ve curated a set of tutorial-style kernels which cover everything from regression to neural networks. We encourage you to experiment with different algorithms to learn first-hand what works well and how techniques compare."
 
