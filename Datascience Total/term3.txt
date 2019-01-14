@@ -1,0 +1,1396 @@
+[I 10:09:26.314 NotebookApp] JupyterLab extension loaded from C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\jupyterlab
+[I 10:09:26.318 NotebookApp] JupyterLab application directory is C:\Users\avillemin\AppData\Local\Continuum\anaconda3\share\jupyter\lab
+[I 10:09:26.318 NotebookApp] Serving notebooks from local directory: C:\Users\avillemin
+[I 10:09:26.318 NotebookApp] The Jupyter Notebook is running at:
+[I 10:09:26.318 NotebookApp] http://localhost:8888/?token=38724e73f01881c0859b4bf6b77e9d599ed5ed276a9b1074
+[I 10:09:26.318 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:09:26.322 NotebookApp]
+
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=38724e73f01881c0859b4bf6b77e9d599ed5ed276a9b1074
+[I 10:09:26.797 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+[W 10:09:27.816 NotebookApp] 404 GET /nbextensions/beakerx/tree.js?v=20181021100924 (::1) 40.00ms referer=http://localhost:8888/tree
+[I 10:09:44.708 NotebookApp] Kernel started: a86eb126-35c0-4a4c-b43c-a24c1587f952
+[IPKernelApp] WARNING | Error in loading extension: beakerx.autotranslation
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kernel_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.groovy_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.clojure_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kotlin_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.scala_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.sql_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.java_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[I 10:09:45.748 NotebookApp] Adapting to protocol v5.1 for kernel a86eb126-35c0-4a4c-b43c-a24c1587f952
+[I 10:09:47.116 NotebookApp] Kernel started: 15185eeb-32a9-45ed-831f-cd5309aaefc7
+[IPKernelApp] WARNING | Error in loading extension: beakerx.autotranslation
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kernel_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.groovy_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.clojure_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kotlin_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.scala_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.sql_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.java_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[I 10:09:48.180 NotebookApp] Adapting to protocol v5.1 for kernel 15185eeb-32a9-45ed-831f-cd5309aaefc7
+C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30
+C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+building tree 1 of 30
+building tree 2 of 30
+building tree 4 of 30
+building tree 3 of 30
+building tree 5 of 30
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30
+C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+[I 10:11:47.529 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 1 of 30
+building tree 2 of 30
+building tree 4 of 30
+building tree 3 of 30
+building tree 5 of 30
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30
+building tree 6 of 30
+building tree 7 of 30
+building tree 1 of 30
+building tree 2 of 30
+building tree 4 of 30
+building tree 5 of 30
+building tree 3 of 30
+building tree 8 of 30
+building tree 9 of 30
+building tree 10 of 30
+building tree 6 of 30
+building tree 7 of 30
+building tree 8 of 30
+building tree 9 of 30
+building tree 10 of 30
+building tree 11 of 30
+building tree 12 of 30
+building tree 13 of 30
+[I 10:13:44.676 NotebookApp] Saving file at /Desktop/challenge_9_data/gridsearch_result.ipynb
+building tree 6 of 30
+building tree 14 of 30
+building tree 7 of 30
+building tree 15 of 30
+building tree 8 of 30
+building tree 9 of 30
+building tree 10 of 30
+building tree 11 of 30
+building tree 12 of 30
+building tree 13 of 30
+building tree 14 of 30
+building tree 16 of 30
+building tree 17 of 30
+building tree 15 of 30
+building tree 18 of 30
+building tree 11 of 30
+building tree 12 of 30
+building tree 19 of 30
+building tree 16 of 30
+building tree 17 of 30
+[I 10:15:44.674 NotebookApp] Saving file at /Desktop/challenge_9_data/gridsearch_result.ipynb
+building tree 20 of 30
+[I 10:15:56.282 NotebookApp] Starting buffering for a86eb126-35c0-4a4c-b43c-a24c1587f952:3208e5cb2da94d1e88bb3df6c4663cfe
+[I 10:15:57.846 NotebookApp] Kernel restarted: a86eb126-35c0-4a4c-b43c-a24c1587f952
+building tree 13 of 30
+building tree 14 of 30
+building tree 18 of 30
+building tree 21 of 30
+building tree 15 of 30
+[IPKernelApp] WARNING | Error in loading extension: beakerx.autotranslation
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kernel_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.groovy_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.clojure_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kotlin_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.scala_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.sql_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.java_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[I 10:16:12.074 NotebookApp] Adapting to protocol v5.1 for kernel a86eb126-35c0-4a4c-b43c-a24c1587f952
+[I 10:16:12.130 NotebookApp] Restoring connection for a86eb126-35c0-4a4c-b43c-a24c1587f952:3208e5cb2da94d1e88bb3df6c4663cfe
+[I 10:16:12.210 NotebookApp] Replaying 6 buffered messages
+building tree 19 of 30
+building tree 22 of 30
+building tree 20 of 30
+building tree 23 of 30
+building tree 16 of 30
+building tree 21 of 30
+building tree 17 of 30
+building tree 24 of 30
+building tree 22 of 30
+building tree 25 of 30
+building tree 26 of 30
+building tree 23 of 30
+building tree 27 of 30
+building tree 18 of 30
+[I 10:17:46.036 NotebookApp] Saving file at /Desktop/challenge_9_data/gridsearch_result.ipynb
+building tree 19 of 30
+building tree 24 of 30
+building tree 20 of 30
+building tree 25 of 30
+building tree 28 of 30
+building tree 29 of 30
+building tree 26 of 30
+building tree 30 of 30
+building tree 27 of 30
+building tree 21 of 30
+building tree 22 of 30
+building tree 28 of 30
+building tree 23 of 30
+building tree 29 of 30
+building tree 24 of 30
+building tree 30 of 30
+[I 10:19:47.157 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 25 of 30
+building tree 26 of 30
+building tree 27 of 30
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:  8.5min finished
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    0.3s finished
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    1.5s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30, score=-1.0850027911336368, total= 8.6min
+building tree 28 of 30
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:  8.6min finished
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    0.2s finished
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    1.3s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30, score=-0.9847824265105543, total= 8.8min
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30
+building tree 29 of 30
+building tree 30 of 30
+building tree 1 of 30
+building tree 2 of 30
+building tree 4 of 30
+building tree 3 of 30
+building tree 5 of 30
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30
+building tree 1 of 30
+building tree 2 of 30
+building tree 4 of 30
+building tree 3 of 30
+building tree 5 of 30
+[I 10:21:33.219 NotebookApp] Kernel started: e28024ba-aff2-4f1a-ab26-e3378f731ec9
+[IPKernelApp] WARNING | Error in loading extension: beakerx.autotranslation
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kernel_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.groovy_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.clojure_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.kotlin_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.scala_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.sql_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[IPKernelApp] WARNING | Error in loading extension: beakerx_magics.java_magic
+Check your config files in C:\Users\avillemin\.ipython\profile_default
+Traceback (most recent call last):
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\shellapp.py", line 244, in init_extensions
+    self.shell.extension_manager.load_extension(ext)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\site-packages\IPython\core\extensions.py", line 80, in load_extension
+    mod = import_module(module_str)
+  File "C:\Users\avillemin\AppData\Local\Continuum\anaconda3\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 941, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 994, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 953, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'beakerx_magics'
+[I 10:21:41.955 NotebookApp] Adapting to protocol v5.1 for kernel e28024ba-aff2-4f1a-ab26-e3378f731ec9
+building tree 6 of 30
+[I 10:21:47.499 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 7 of 30
+building tree 8 of 30
+building tree 9 of 30
+building tree 10 of 30
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed: 10.0min finished
+building tree 6 of 30
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    0.3s finished
+building tree 7 of 30
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    2.5s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30, score=-0.21502713368467058, total=10.3min
+building tree 8 of 30
+building tree 9 of 30
+building tree 10 of 30
+building tree 11 of 30
+building tree 12 of 30
+building tree 13 of 30
+building tree 14 of 30
+building tree 15 of 30
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40
+building tree 11 of 30
+[I 10:23:34.027 NotebookApp] Saving file at /Documents/get_METAR.ipynb
+building tree 12 of 30
+building tree 13 of 30
+building tree 14 of 30
+building tree 1 of 40
+[I 10:23:47.302 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 2 of 40
+building tree 4 of 40
+building tree 3 of 40
+building tree 5 of 40
+building tree 15 of 30
+building tree 16 of 30
+building tree 17 of 30
+building tree 16 of 30
+building tree 17 of 30
+building tree 18 of 30
+building tree 19 of 30
+building tree 20 of 30
+building tree 6 of 40
+building tree 7 of 40
+building tree 8 of 40
+building tree 9 of 40
+building tree 10 of 40
+building tree 18 of 30
+building tree 19 of 30
+building tree 20 of 30
+building tree 21 of 30
+building tree 22 of 30
+building tree 21 of 30
+building tree 22 of 30
+building tree 11 of 40
+building tree 23 of 30
+building tree 12 of 40
+building tree 13 of 40
+building tree 24 of 30
+building tree 25 of 30
+building tree 14 of 40
+[I 10:26:40.396 NotebookApp] Starting buffering for a86eb126-35c0-4a4c-b43c-a24c1587f952:3208e5cb2da94d1e88bb3df6c4663cfe
+building tree 15 of 40
+building tree 23 of 30
+building tree 24 of 30
+building tree 26 of 30
+building tree 27 of 30
+building tree 25 of 30
+building tree 16 of 40
+building tree 26 of 30
+[I 10:27:47.147 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 27 of 30
+building tree 17 of 40
+building tree 18 of 40
+building tree 28 of 30
+building tree 19 of 40
+building tree 29 of 30
+building tree 30 of 30
+building tree 20 of 40
+building tree 28 of 30
+building tree 29 of 30
+building tree 21 of 40
+building tree 22 of 40
+building tree 30 of 30
+building tree 23 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 28 of 40
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:  9.1min finished
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    0.2s finished
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    1.5s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30, score=-0.2899313011406141, total= 9.3min
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:  8.9min finished
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    0.3s finished
+building tree 29 of 40
+building tree 30 of 40
+[Parallel(n_jobs=5)]: Done  30 out of  30 | elapsed:    1.9s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=30, score=-0.48691166977106465, total= 9.2min
+building tree 31 of 40
+building tree 32 of 40
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40
+building tree 33 of 40
+building tree 1 of 40
+building tree 2 of 40
+building tree 4 of 40
+building tree 3 of 40
+building tree 5 of 40
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40
+building tree 34 of 40
+building tree 1 of 40
+building tree 2 of 40
+building tree 4 of 40
+building tree 3 of 40
+building tree 5 of 40
+building tree 35 of 40
+building tree 36 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:  7.8min
+building tree 37 of 40
+building tree 6 of 40
+building tree 7 of 40
+building tree 8 of 40
+building tree 38 of 40
+building tree 9 of 40
+building tree 10 of 40
+building tree 39 of 40
+building tree 6 of 40
+building tree 40 of 40
+building tree 7 of 40
+building tree 8 of 40
+building tree 9 of 40
+building tree 10 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed: 10.6min finished
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    0.8s finished
+building tree 11 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.2s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    2.8s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40, score=-1.071796628963576, total=11.0min
+building tree 16 of 40
+building tree 12 of 40
+building tree 17 of 40
+[I 10:35:13.262 NotebookApp] Starting buffering for e28024ba-aff2-4f1a-ab26-e3378f731ec9:5720b11dc0d748d4836d2c7f87d849f1
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40
+building tree 18 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 21 of 40
+building tree 22 of 40
+building tree 16 of 40
+[I 10:35:47.401 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 17 of 40
+building tree 1 of 40
+building tree 2 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 3 of 40
+building tree 23 of 40
+building tree 24 of 40
+building tree 18 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 19 of 40
+building tree 20 of 40
+building tree 27 of 40
+building tree 21 of 40
+building tree 6 of 40
+building tree 22 of 40
+building tree 7 of 40
+building tree 8 of 40
+building tree 9 of 40
+building tree 10 of 40
+[I 10:37:47.655 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 28 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 23 of 40
+building tree 11 of 40
+building tree 12 of 40
+building tree 24 of 40
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 13 of 40
+building tree 14 of 40
+building tree 15 of 40
+building tree 33 of 40
+building tree 34 of 40
+building tree 35 of 40
+building tree 36 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:  9.4min
+building tree 37 of 40
+building tree 16 of 40
+building tree 28 of 40
+building tree 17 of 40
+building tree 18 of 40
+building tree 29 of 40
+building tree 30 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 19 of 40
+building tree 38 of 40
+building tree 20 of 40
+building tree 39 of 40
+building tree 40 of 40
+building tree 21 of 40
+building tree 33 of 40
+[I 10:41:47.103 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 22 of 40
+building tree 23 of 40
+building tree 34 of 40
+building tree 35 of 40
+building tree 24 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed: 10.9min
+building tree 36 of 40
+building tree 37 of 40
+building tree 25 of 40
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed: 11.9min finished
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    0.6s finished
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.4s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    3.0s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40, score=-0.9577881755147134, total=12.1min
+building tree 26 of 40
+building tree 27 of 40
+building tree 38 of 40
+building tree 28 of 40
+building tree 39 of 40
+building tree 29 of 40
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40
+building tree 40 of 40
+building tree 30 of 40
+[I 10:43:47.269 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 1 of 40
+building tree 2 of 40
+building tree 4 of 40
+building tree 5 of 40
+building tree 3 of 40
+building tree 31 of 40
+building tree 32 of 40
+building tree 33 of 40
+building tree 34 of 40
+building tree 35 of 40
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed: 13.7min finished
+building tree 6 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    0.6s finished
+building tree 7 of 40
+building tree 8 of 40
+building tree 9 of 40
+building tree 10 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.7s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    3.8s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40, score=-0.21338843760243834, total=14.2min
+building tree 36 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:  9.7min
+building tree 37 of 40
+building tree 38 of 40
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60
+building tree 11 of 40
+building tree 39 of 40
+building tree 12 of 40
+building tree 40 of 40
+building tree 13 of 40
+building tree 1 of 60
+building tree 2 of 60
+building tree 3 of 60
+building tree 4 of 60
+building tree 5 of 60
+building tree 14 of 40
+building tree 15 of 40
+building tree 16 of 40
+building tree 17 of 40
+building tree 6 of 60
+building tree 7 of 60
+building tree 8 of 60
+building tree 9 of 60
+building tree 10 of 60
+building tree 18 of 40
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed: 12.6min finished
+building tree 19 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    0.6s finished
+building tree 11 of 60
+building tree 12 of 60
+building tree 20 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.8s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    3.6s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40, score=-0.28990550628041706, total=13.1min
+building tree 21 of 40
+building tree 22 of 40
+building tree 13 of 60
+building tree 23 of 40
+building tree 24 of 40
+building tree 14 of 60
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60
+building tree 15 of 60
+building tree 16 of 60
+building tree 17 of 60
+building tree 1 of 60
+building tree 2 of 60
+building tree 4 of 60
+building tree 3 of 60
+building tree 5 of 60
+building tree 25 of 40
+building tree 26 of 40
+building tree 27 of 40
+building tree 18 of 60
+building tree 28 of 40
+building tree 19 of 60
+building tree 29 of 40
+building tree 20 of 60
+building tree 21 of 60
+building tree 6 of 60
+building tree 7 of 60
+building tree 22 of 60
+building tree 8 of 60
+building tree 9 of 60
+building tree 30 of 40
+building tree 31 of 40
+building tree 10 of 60
+building tree 32 of 40
+building tree 23 of 60
+building tree 24 of 60
+building tree 33 of 40
+building tree 34 of 40
+building tree 25 of 60
+building tree 11 of 60
+building tree 26 of 60
+building tree 27 of 60
+building tree 12 of 60
+building tree 13 of 60
+building tree 35 of 40
+building tree 28 of 60
+building tree 29 of 60
+building tree 14 of 60
+building tree 36 of 40
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed: 10.5min
+building tree 37 of 40
+building tree 15 of 60
+building tree 38 of 40
+building tree 39 of 40
+building tree 30 of 60
+building tree 16 of 60
+building tree 31 of 60
+building tree 32 of 60
+building tree 17 of 60
+building tree 18 of 60
+building tree 33 of 60
+building tree 40 of 40
+building tree 19 of 60
+building tree 34 of 60
+building tree 20 of 60
+building tree 35 of 60
+building tree 21 of 60
+building tree 36 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed: 10.1min
+building tree 37 of 60
+building tree 38 of 60
+building tree 22 of 60
+building tree 39 of 60
+building tree 23 of 60
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed: 13.5min finished
+building tree 24 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    0.7s finished
+building tree 25 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.7s
+[Parallel(n_jobs=5)]: Done  40 out of  40 | elapsed:    3.4s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=40, score=-0.4876289423809164, total=13.8min
+building tree 40 of 60
+building tree 26 of 60
+building tree 41 of 60
+building tree 42 of 60
+building tree 27 of 60
+building tree 43 of 60
+building tree 44 of 60
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60
+building tree 28 of 60
+building tree 29 of 60
+building tree 1 of 60
+building tree 2 of 60
+building tree 4 of 60
+building tree 5 of 60
+building tree 3 of 60
+building tree 30 of 60
+building tree 45 of 60
+building tree 46 of 60
+building tree 31 of 60
+building tree 47 of 60
+building tree 48 of 60
+building tree 32 of 60
+building tree 33 of 60
+building tree 49 of 60
+building tree 34 of 60
+building tree 35 of 60
+building tree 6 of 60
+building tree 7 of 60
+building tree 8 of 60
+building tree 9 of 60
+building tree 50 of 60
+building tree 10 of 60
+building tree 51 of 60
+building tree 52 of 60
+building tree 36 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed: 11.3min
+building tree 37 of 60
+building tree 53 of 60
+building tree 38 of 60
+building tree 54 of 60
+building tree 39 of 60
+building tree 11 of 60
+building tree 40 of 60
+building tree 12 of 60
+building tree 13 of 60
+building tree 55 of 60
+building tree 56 of 60
+building tree 14 of 60
+building tree 41 of 60
+building tree 42 of 60
+building tree 57 of 60
+building tree 15 of 60
+building tree 58 of 60
+building tree 43 of 60
+building tree 59 of 60
+building tree 44 of 60
+building tree 45 of 60
+building tree 60 of 60
+building tree 16 of 60
+building tree 17 of 60
+building tree 46 of 60
+building tree 47 of 60
+building tree 18 of 60
+building tree 19 of 60
+building tree 20 of 60
+building tree 48 of 60
+building tree 49 of 60
+building tree 50 of 60
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed: 19.3min finished
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    1.3s finished
+building tree 21 of 60
+building tree 51 of 60
+building tree 52 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    3.0s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    5.7s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60, score=-1.0704861396040313, total=19.8min
+building tree 22 of 60
+building tree 53 of 60
+building tree 23 of 60
+building tree 24 of 60
+building tree 25 of 60
+building tree 54 of 60
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60
+building tree 55 of 60
+building tree 56 of 60
+building tree 57 of 60
+building tree 1 of 60
+building tree 2 of 60
+building tree 3 of 60
+building tree 5 of 60
+building tree 4 of 60
+building tree 26 of 60
+building tree 58 of 60
+building tree 27 of 60
+building tree 28 of 60
+building tree 29 of 60
+building tree 30 of 60
+building tree 59 of 60
+building tree 6 of 60
+building tree 31 of 60
+building tree 60 of 60
+building tree 7 of 60
+building tree 33 of 60
+building tree 32 of 60
+building tree 34 of 60
+building tree 9 of 60
+building tree 10 of 60
+building tree 8 of 60
+building tree 11 of 60
+building tree 12 of 60
+building tree 35 of 60
+building tree 13 of 60
+building tree 36 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed: 14.1min
+building tree 37 of 60
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed: 22.9min finished
+building tree 14 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.5s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    1.0s finished
+building tree 38 of 60
+building tree 39 of 60
+building tree 15 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.2s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    4.3s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60, score=-0.9592280355588897, total=23.4min
+[I 11:13:53.181 NotebookApp] Saving file at /Desktop/challenge_9_data/challenge_solution.ipynb
+building tree 16 of 60
+building tree 40 of 60
+building tree 17 of 60
+building tree 18 of 60
+[CV] bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60
+building tree 41 of 60
+building tree 42 of 60
+building tree 19 of 60
+building tree 20 of 60
+building tree 43 of 60
+building tree 44 of 60
+building tree 1 of 60
+building tree 2 of 60
+building tree 4 of 60
+building tree 5 of 60
+building tree 3 of 60
+building tree 21 of 60
+building tree 45 of 60
+building tree 22 of 60
+building tree 23 of 60
+building tree 46 of 60
+building tree 24 of 60
+building tree 6 of 60
+building tree 25 of 60
+building tree 47 of 60
+building tree 48 of 60
+building tree 7 of 60
+building tree 49 of 60
+building tree 8 of 60
+building tree 9 of 60
+building tree 10 of 60
+building tree 26 of 60
+building tree 50 of 60
+building tree 27 of 60
+building tree 11 of 60
+building tree 28 of 60
+building tree 29 of 60
+building tree 30 of 60
+building tree 51 of 60
+building tree 12 of 60
+building tree 52 of 60
+building tree 53 of 60
+building tree 54 of 60
+building tree 13 of 60
+building tree 14 of 60
+building tree 15 of 60
+building tree 31 of 60
+building tree 16 of 60
+building tree 55 of 60
+building tree 32 of 60
+building tree 33 of 60
+building tree 34 of 60
+building tree 17 of 60
+building tree 35 of 60
+building tree 56 of 60
+building tree 57 of 60
+building tree 58 of 60
+building tree 59 of 60
+building tree 18 of 60
+building tree 19 of 60
+building tree 20 of 60
+building tree 21 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed: 12.5min
+building tree 36 of 60
+building tree 37 of 60
+building tree 38 of 60
+building tree 22 of 60
+building tree 60 of 60
+building tree 39 of 60
+building tree 40 of 60
+building tree 23 of 60
+building tree 24 of 60
+building tree 25 of 60
+building tree 26 of 60
+building tree 41 of 60
+building tree 42 of 60
+building tree 27 of 60
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed: 22.7min finished
+building tree 43 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    0.8s finished
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.2s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    4.3s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60, score=-0.21183848635906444, total=23.1min
+building tree 44 of 60
+building tree 45 of 60
+building tree 28 of 60
+building tree 29 of 60
+building tree 30 of 60
+building tree 31 of 60
+building tree 46 of 60
+building tree 47 of 60
+[CV] bootstrap=False, max_features=auto, min_samples_split=2, n_estimators=30
+building tree 32 of 60
+building tree 1 of 30
+building tree 2 of 30
+building tree 3 of 30
+building tree 5 of 30
+building tree 4 of 30
+building tree 48 of 60
+building tree 49 of 60
+building tree 33 of 60
+building tree 34 of 60
+building tree 50 of 60
+building tree 35 of 60
+building tree 51 of 60
+building tree 36 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:  9.0min
+building tree 52 of 60
+building tree 37 of 60
+building tree 6 of 30
+building tree 7 of 30
+building tree 8 of 30
+building tree 53 of 60
+building tree 38 of 60
+building tree 54 of 60
+building tree 9 of 30
+building tree 10 of 30
+building tree 39 of 60
+building tree 55 of 60
+building tree 56 of 60
+building tree 40 of 60
+building tree 41 of 60
+building tree 57 of 60
+building tree 42 of 60
+building tree 43 of 60
+building tree 58 of 60
+building tree 11 of 30
+building tree 12 of 30
+building tree 13 of 30
+building tree 59 of 60
+building tree 44 of 60
+building tree 45 of 60
+building tree 60 of 60
+building tree 46 of 60
+building tree 47 of 60
+building tree 14 of 30
+building tree 15 of 30
+building tree 48 of 60
+building tree 49 of 60
+building tree 50 of 60
+building tree 16 of 30
+building tree 17 of 30
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed: 20.4min finished
+building tree 18 of 30
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.3s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    0.9s finished
+building tree 51 of 60
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    2.3s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    4.6s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60, score=-0.28761667932731505, total=20.8min
+building tree 52 of 60
+building tree 53 of 60
+building tree 19 of 30
+building tree 20 of 30
+building tree 54 of 60
+[CV] bootstrap=False, max_features=auto, min_samples_split=2, n_estimators=30
+building tree 55 of 60
+building tree 1 of 30
+building tree 2 of 30
+building tree 4 of 30
+building tree 3 of 30
+building tree 5 of 30
+building tree 56 of 60
+building tree 57 of 60
+building tree 21 of 30
+building tree 22 of 30
+building tree 23 of 30
+building tree 58 of 60
+building tree 59 of 60
+building tree 60 of 60
+building tree 24 of 30
+building tree 25 of 30
+building tree 26 of 30
+building tree 27 of 30
+building tree 6 of 30
+building tree 7 of 30
+building tree 28 of 30
+building tree 8 of 30
+building tree 9 of 30
+building tree 10 of 30
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed: 17.4min finished
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    0.4s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    0.9s finished
+[Parallel(n_jobs=5)]: Done  31 tasks      | elapsed:    1.9s
+[Parallel(n_jobs=5)]: Done  60 out of  60 | elapsed:    4.0s finished
+[CV]  bootstrap=True, max_features=auto, min_samples_split=2, n_estimators=60, score=-0.48306067649889467, total=17.7min
+building tree 29 of 30
+building tree 30 of 30
+[CV] bootstrap=False, max_features=auto, min_samples_split=2, n_estimators=30
+building tree 1 of 30
+building tree 2 of 30
+building tree 4 of 30
+building tree 5 of 30
+building tree 3 of 30
+building tree 11 of 30
+building tree 12 of 30
+building tree 13 of 30
